@@ -1,0 +1,28 @@
+<snippet>
+    <content><![CDATA[
+/********************************************************************************
+ Includes
+********************************************************************************/
+
+#include <avr/io.h>
+
+
+
+
+/********************************************************************************
+ Main
+********************************************************************************/
+
+int main(void)
+{
+    while(true)
+    {
+        ${1:Code Here}
+    }
+}
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>avrbasic</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.c</scope>
+</snippet>

@@ -1,0 +1,21 @@
+<snippet>
+    <content>
+        <![CDATA[
+DDRA=0xff;      // PORTA as OUTPUT
+PORTA=0x00;
+
+DDRB=0xff;      // PORTB as OUTPUT
+PORTB=0x00;
+
+DDRC=0xff;      // PORTC as OUTPUT
+PORTC=0x00;
+
+DDRD=0xff;      // PORTD as OUTPUT
+PORTD=0x00;
+    ]]>
+</content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>avrapo</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.c</scope>
+</snippet>

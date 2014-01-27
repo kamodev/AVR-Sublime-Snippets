@@ -1,0 +1,16 @@
+<snippet>
+    <content><![CDATA[
+/********************************************************************************
+    Interrupt Routines
+********************************************************************************/
+// ${1:Comment} overflow
+ISR(TIMER1_OVF_vect) {
+    ${2:Overflow_Code}
+}
+
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>avrtmrovr</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.c</scope>
+</snippet>
